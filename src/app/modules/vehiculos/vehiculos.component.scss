@@ -1,0 +1,28 @@
+.card{
+  display: flex;
+  width: 30rem;
+  align-self: normal;
+  
+
+}
+
+.image{
+  max-width: 400px;
+  height: 200px;
+
+}
+
+.cards{
+  margin-left: 1rem;
+}
+
+.scroll{
+  overflow: auto;
+}
+
+.descripcion{
+height: 150px;
+margin: 0 auto;
+padding: 10px;
+overflow: auto;
+}

@@ -1,0 +1,40 @@
+{
+  "cars": [
+    {
+      "id": 2,
+      "name": "RENAULT STEPWAY",
+      "modelo": 2024,
+      "marca": "RENAULT",
+      "description": "Renault STEPWAY te encantará con su diseño interior y exterior, para que vivas todas tus aventuras.​",
+      "photoUrl": "https://cdn.group.renault.com/ren/co/vehicles/stepway/home/nuevo-renault-stepway-gris-estrella.jpg.ximg.large.webp/b12fedbda7.webp",
+      "price": 70000000
+    },
+    {
+      "id": "1",
+      "name": "Chevrolet Joy  Sedán",
+      "modelo": "2014",
+      "marca": "Chevrolet",
+      "description": "Si buscas un carro espacioso y versátil, aquí tienes una excelente opción: el Joy Sedán. Además de brindar más comodidad a toda tu familia, viene equipado con aire acondicionado, Bluetooth, 2 parlantes y vidrios eléctricos delanteros.",
+      "photoUrl": "https://www.chevrolet.com.co/content/dam/chevrolet/south-america/colombia/espanol/index/cars/2021-joy-sedan/test/masthead/chevrolet-joy-sedan-carro-moderno-lateral.png?imwidth=420",
+      "price": "62120000"
+    },
+    {
+      "id": 3,
+      "name": "NUEVO RENAULT KWID",
+      "modelo": 2024,
+      "marca": "RENAULT",
+      "description": "El nuevo Renault Kwid ha llegado completamente renovado. En el exterior, hay una nueva parrilla delantera, faros delanteros y traseros con tecnología LED, y rines de aluminio diamantados de 14”.*  En el interior, totalmente renovado con nuevos acabados, cuadro de instrumentos con indicadores digitales, Media Evolution® de 8“** con botón Push to Talk y mucho espacio y confort. A bordo del SUV de los compactos, todos los días serán estupendos.",
+      "photoUrl": "https://www.renault.com.co/agg/vn/unique/grade_carrousel_main_1_medium/grade_carrousel_1.png?uri=https%3A%2F%2Fco.co.rplug.renault.com%2Fproduct%2Fmodel%2FBB1%2Fkwid%2Fc%2FA-TEKNH-ENS_0MDL2P1SERIELIM1_",
+      "price": 56200000
+    },
+    {
+      "id": 4,
+      "name": "LOGAN",
+      "modelo": 2024,
+      "marca": "RENAULT",
+      "description": "La parrilla frontal negra del Renault LOGAN resalta los faros diurnos con tecnología LED que brindan más visibilidad en la conducción y le dan un mayor estilo. En su versión Intens, cuenta con rines de 16” diamantados que le permiten tener un diseño más robusto. Su interior con una cojinería en cuero le dan un toque Premium a tu Renault Logan.",
+      "photoUrl": "https://www.renault.com.co/agg/vn/unique/grade_carrousel_main_1_medium/grade_carrousel_1.png?uri=https%3A%2F%2Fco.co.rplug.renault.com%2Fproduct%2Fmodel%2FL4M%2Flogan%2Fc%2FA-TEKNG-ENS_0MDL2P1SERIELIM2_",
+      "price": 68600000
+    }
+  ]
+}

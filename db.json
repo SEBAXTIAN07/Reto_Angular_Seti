@@ -1,0 +1,28 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "name": "Mazda 3",
+      "modelo": "2023",
+      "marca": "Mazda",
+      "photoUrl": "/assets/img/mazda3.jpeg",
+      "price": "128550000"
+    },
+    {
+      "id": "2",
+      "name": "Mazda cx30",
+      "modelo": "2023",
+      "marca": "Mazda",
+      "photoUrl": "/assets/img/mazdacx30.jpeg",
+      "price": "135000000"
+    },
+    {
+      "id": "3",
+      "name": "Stepway",
+      "modelo": "2023",
+      "marca": "Renault",
+      "photoUrl": "/assets/img/stepway.jpg",
+      "price": "90000000"
+    }
+  ]
+}

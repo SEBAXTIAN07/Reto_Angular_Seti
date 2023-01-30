@@ -1,0 +1,39 @@
+<br />
+<div class="conButton" style="margin-left: 1rem">
+  <button mat-raised-button color="primary" (click)="confirm_dialog()">Nueva publicación</button>
+</div>
+
+<div class="card">
+  <div *ngFor="let car of listCar">
+    <br />
+    <mat-card class="cards" >
+      <mat-card-subtitle style="margin-left: 1rem;">ID: {{ car.id }}</mat-card-subtitle>      
+      <mat-card-header>
+        <mat-card-title>{{ car.name }}</mat-card-title>
+        <mat-card-subtitle>{{ car.modelo }}</mat-card-subtitle>
+      </mat-card-header>
+      <img class="image" mat-card-image src="{{ car.photoUrl }}" />
+      <mat-card-subtitle style="margin-left: 1rem">
+        {{ car.price | currency:'$'}}
+      </mat-card-subtitle>
+      <br>
+      <div class="descripcion">
+        <mat-card-content class="scroll">
+          <div>
+            {{ car.description }}
+          </div>        
+        </mat-card-content>
+      </div>
+
+      <br>
+      <div class="container" style="margin-left: 1rem">
+        <button mat-raised-button color="primary" [routerLink]="['/editarVehiculos', car.id]">Editar</button>
+        <button mat-raised-button color="warn" (click)="deleteCar(car)" style="margin-left: 0.5rem;">Borrar</button>
+      </div>
+      <br>
+    </mat-card>
+  </div>
+</div>
+  
+  
+  

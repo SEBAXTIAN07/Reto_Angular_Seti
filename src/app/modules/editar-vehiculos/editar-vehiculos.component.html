@@ -1,0 +1,61 @@
+<h1><b>Editar Vehículo</b></h1>
+
+<div class="card">
+  <form  #f="ngForm" (ngSubmit)="onSubmit(f)">
+  <mat-card class="card">
+    <img class="image" mat-card-image src="{{ car.photoUrl }}"/>
+
+        <mat-card-subtitle> 
+          <div style="text-align: center;">
+            <mat-form-field class="example-full-width">
+              <mat-label>Nombre:</mat-label>
+              <input matInput type="text" name="name" [(ngModel)]="car.name">
+            </mat-form-field>          
+          </div>
+        </mat-card-subtitle>
+
+        <mat-card-subtitle>
+          <div style="text-align: center;">
+          <mat-form-field class="example-full-width">
+            <mat-label>Modelo:</mat-label>
+            <input matInput type="text" name="modelo" [(ngModel)]="car.modelo">
+          </mat-form-field> 
+        </div>
+        </mat-card-subtitle>
+
+        <mat-card-subtitle>
+          <div style="text-align: center;">
+          <mat-form-field class="example-full-width">
+            <mat-label>Marca:</mat-label>
+            <input matInput type="text" name="Marca" [(ngModel)]="car.marca">
+          </mat-form-field> 
+        </div>
+        </mat-card-subtitle>
+
+        <mat-card-subtitle>
+          <div style="text-align: center;">
+          <mat-form-field class="example-full-width">
+            <mat-label>Precio:</mat-label>
+            <input matInput type="text" name="Precio" [(ngModel)]="car.price">
+          </mat-form-field>
+        </div>
+        </mat-card-subtitle>
+
+        <div style="text-align: center;">
+          <div class="conButton">
+           <button mat-raised-button color="primary" type="submit"> Actualizar </button>
+           </div>
+        </div>
+    
+  </mat-card>
+
+
+</form>
+</div>
+
+
+
+
+
+
+
